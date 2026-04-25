@@ -42,10 +42,28 @@ export default function Home() {
       }
     }
 
+    const applyHook = (hookKey) => {
+      const h = hooks[hookKey]
+      if (!h) return
+      const eyebrow = document.getElementById('hero-eyebrow')
+      const h1el = document.getElementById('hero-h1')
+      const em = document.getElementById('hero-em')
+      const sub = document.getElementById('hero-sub')
+      if (eyebrow) eyebrow.textContent = h.eyebrow
+      if (h1el) h1el.childNodes[0].textContent = h.h1
+      if (em) em.textContent = h.em
+      if (sub) sub.textContent = h.sub
+      document.querySelectorAll('.htab').forEach(t => {
+        t.classList.toggle('on', t.getAttribute('data-hook') === hookKey)
+      })
+    }
+
+    const urlParams = new URLSearchParams(window.location.search)
+    const hookParam = urlParams.get('hook')
+    if (hookParam && hooks[hookParam]) applyHook(hookParam)
+
     document.querySelectorAll('.htab').forEach(tab => {
       tab.addEventListener('click', () => {
-        document.querySelectorAll('.htab').forEach(t => t.classList.remove('on'))
-        tab.classList.add('on')
         const hook = tab.getAttribute('data-hook')
         applyHook(hook)
       })

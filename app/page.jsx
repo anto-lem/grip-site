@@ -124,18 +124,8 @@ export default function Home() {
           <button className="htab">Beginner</button>
         </div>
         <div className="fa d6">
-          <div className="tally-box" id="enroll">
-            <h3>Claim your founding member spot</h3>
-            <p>Answer 3 quick questions — then complete your enrollment.</p>
-            <iframe
-              data-tally-src="https://tally.so/embed/q4EoAY?hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              loading="lazy"
-              width="100%"
-              height="650"
-              frameBorder="0"
-              title="Grip - Marketing Contact Form EN"
-            />
-          </div>
+          <a href="#enroll" className="btn-gold lg pulse">Reserve My Spot →</a>
+          <p style={{marginTop:'1rem',fontSize:'0.82rem',color:'var(--muted)'}}>Founding member price locked at <span style={{color:'var(--gold)'}}>$1,000</span> — increases to $1,500 at launch.</p>
         </div>
       </div>
 
@@ -301,6 +291,26 @@ export default function Home() {
         <h2 className="stitle" style={{fontSize:'clamp(2rem,5vw,3.2rem)'}}>Stop Guessing. <span className="gold">Start Mastering.</span></h2>
         <p style={{color:'var(--muted)',fontSize:'1rem',maxWidth:'460px',margin:'0 auto 2rem'}}>The system that drives your growth should not live outside your understanding. Lock the founding price. Take control.</p>
         <a href="#enroll" className="btn-gold lg pulse">Reserve My Spot →</a>
+      </div>
+
+      <hr className="dv" />
+
+      <div className="sec" style={{maxWidth:'700px',margin:'0 auto'}} id="enroll">
+        <div className="reveal" style={{textAlign:'center',marginBottom:'2.5rem'}}>
+          <p className="slabel">Enrollment</p>
+          <h2 className="stitle">Claim your founding member spot.</h2>
+          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Answer 3 quick questions to confirm Grip is the right fit — then complete your enrollment.</p>
+        </div>
+        <div className="reveal d2" style={{background:'rgba(201,168,76,0.04)',border:'1px solid rgba(201,168,76,0.2)',borderRadius:'4px',padding:'2rem'}}>
+          <iframe
+            data-tally-src="https://tally.so/embed/q4EoAY?hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="650"
+            frameBorder="0"
+            title="Grip - Marketing Contact Form EN"
+          />
+        </div>
       </div>
 
       <footer>

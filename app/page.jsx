@@ -102,7 +102,7 @@ export default function Home() {
 
   const profiles = [
     ['Profile 01', "The business owner who's never really done marketing", "You never had a marketing background. It always felt too technical, too overwhelming. You know you need it you just never had the roadmap."],
-    ['Profile 02', 'The owner paying an agency and not seeing results', "You're paying $2-5K/month to an agency. You get reports you don't understand. There's no transparency. You're not sure what you're actually getting."],
+    ['Profile 02', 'The owner paying an agency and not seeing results', "You're paying between $3,000 and $7,000/month to an agency. You get reports you don't understand. There's no transparency. You're not sure what you're actually getting."],
     ['Profile 03', 'The leader who wants their team to own the marketing', "You have an internal person maybe a VA, maybe a junior hire. But there's no system. No framework. No way to train them or hold them accountable."],
   ]
 
@@ -212,7 +212,7 @@ export default function Home() {
         </div>
         <div className="reassurance-box reveal d3">
           <p className="reassurance-num">0</p>
-          <p className="reassurance-text">Prior marketing experience required Grip was built from the ground up for business owners, not marketers. Every concept explained from first principles.</p>
+          <p className="reassurance-text">No prior marketing experience required. Grip was built from the ground up for business owners, not marketers. Every concept explained from first principles.</p>
         </div>
       </div>
 

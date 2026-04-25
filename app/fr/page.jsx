@@ -110,11 +110,11 @@ export default function FR() {
   const after = ['Chaque décision est basée sur un framework clair', 'Tu sais exactement ce que chaque dollar produit', "Tu contrôles le système n'importe qui peut l'exécuter", 'Tu diagnostiques la performance comme un stratège', 'La croissance est délibérée et mesurable', 'Tu possèdes ton intelligence marketing en permanence']
 
   const modules = [
-    ['00', 'The Ownership Shift', ['Le piège de la dépendance aux agences', 'Ce que la compétence interne signifie', 'Standards et engagement'], '20 min'],
-    ['01', 'Fondations Marketing', ['Recherche industrie et marché', "Positionnement et design d'offre", 'Avatar et message', 'Framework stratégique'], '60–75 min'],
-    ['02', 'Contenu & Autorité', ['Structure de contenu et hooks', 'Scriptwriting', 'Intégration IA', 'Stratégie de distribution'], '60 min'],
-    ['03', "Systèmes d'Acquisition", ['Génération de leads', 'Architecture de funnel', 'Fondements ads et métriques', 'Principes de conversion'], '75–90 min'],
-    ['04', 'Systèmes & Optimisation', ['Automatisation', 'Lecture des données et KPIs', "Framework d'itération", 'Contrôle à long terme'], '60 min'],
+    ['00', 'The Owner Shift', ['La réalité de la dépendance', 'Le problème et la solution', 'Standards et engagement'], '20 min'],
+    ['01', 'Marketing Foundation', ['Recherche marché et analyse concurrentielle', 'Positionnement, offre et valeur', 'Avatar, message et branding', 'Parcours client'], '60–75 min'],
+    ['02', 'Capture Attention', ['Stratégie de contenu et scripts', 'Tournage iPhone et caméra', 'Montage et intégration IA', 'Distribution et métriques'], '60 min'],
+    ['03', 'Convert & Acquire', ['VSL et landing page', 'Création et gestion des ads', 'SEO, SEO local et GEO/AEO', 'Tracking et KPIs'], '75–90 min'],
+    ['04', 'Automate & Scale', ['CRM et séquences email', 'Lead nurturing et scoring', 'Workflows et automatisation', 'AI agents et rétention'], '60 min'],
   ]
 
   const founding = [

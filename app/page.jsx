@@ -15,10 +15,49 @@ export default function Home() {
     const onScroll = () => nav && nav.classList.toggle('sc', window.scrollY > 40)
     window.addEventListener('scroll', onScroll)
 
+    const hooks = {
+      agency: {
+        eyebrow: 'Stop Paying $3,000/Month to Agencies',
+        h1: 'Fire Your Agency.',
+        em: 'Own Your Marketing.',
+        sub: "No marketing background? No problem. Paying an agency and not sure what you're getting? Grip gives any business owner a complete, structured marketing system they can build, run, and own — certified."
+      },
+      roi: {
+        eyebrow: 'Turn Marketing Into a Revenue Asset',
+        h1: 'Stop Renting Your Growth.',
+        em: 'Start Owning It.',
+        sub: "Every dollar you spend on an agency disappears. Grip turns marketing into a permanent internal asset — one that compounds over time and belongs to you."
+      },
+      control: {
+        eyebrow: 'Take Back Control of Your Marketing',
+        h1: 'Take Back Control.',
+        em: 'Run Your Own Marketing.',
+        sub: "Stop depending on external teams for every decision. Grip gives you the framework, the tools, and the confidence to own your marketing strategy — permanently."
+      },
+      beginner: {
+        eyebrow: 'No Marketing Experience Required',
+        h1: 'No Experience Needed.',
+        em: 'Build Your System From Scratch.',
+        sub: "You don't need a marketing degree. You don't need to have run ads before. Grip was built from the ground up for business owners who are starting from zero."
+      }
+    }
+
     document.querySelectorAll('.htab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.htab').forEach(t => t.classList.remove('on'))
         tab.classList.add('on')
+        const hook = tab.getAttribute('data-hook')
+        if (hooks[hook]) {
+          const h = hooks[hook]
+          const eyebrow = document.getElementById('hero-eyebrow')
+          const h1 = document.getElementById('hero-h1')
+          const em = document.getElementById('hero-em')
+          const sub = document.getElementById('hero-sub')
+          if (eyebrow) eyebrow.textContent = h.eyebrow
+          if (h1) { h1.childNodes[0].textContent = h.h1; }
+          if (em) em.textContent = h.em
+          if (sub) sub.textContent = h.sub
+        }
       })
     })
 
@@ -114,14 +153,14 @@ export default function Home() {
       </nav>
 
       <div className="hero">
-        <p className="eyebrow fa d1">Stop Paying $3,000/Month to Agencies</p>
-        <h1 className="h1 fa d2">Fire Your Agency.<em>Own Your Marketing.</em></h1>
-        <p className="hero-sub fa d3">No marketing background? No problem. Paying an agency and not sure what you're getting? Grip gives any business owner a complete, structured marketing system they can build, run, and own — certified.</p>
+        <p className="eyebrow fa d1" id="hero-eyebrow">Stop Paying $3,000/Month to Agencies</p>
+        <h1 className="h1 fa d2" id="hero-h1">Fire Your Agency.<em id="hero-em">Own Your Marketing.</em></h1>
+        <p className="hero-sub fa d3" id="hero-sub">No marketing background? No problem. Paying an agency and not sure what you're getting? Grip gives any business owner a complete, structured marketing system they can build, run, and own — certified.</p>
         <div className="hook-tabs fa d4">
-          <button className="htab on">Anti-Agency</button>
-          <button className="htab">ROI Asset</button>
-          <button className="htab">Control</button>
-          <button className="htab">Beginner</button>
+          <button className="htab on" data-hook="agency">Anti-Agency</button>
+          <button className="htab" data-hook="roi">ROI Asset</button>
+          <button className="htab" data-hook="control">Control</button>
+          <button className="htab" data-hook="beginner">Beginner</button>
         </div>
         <div className="fa d6">
           <a href="#enroll" className="btn-gold lg pulse">Reserve My Spot →</a>

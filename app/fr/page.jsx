@@ -124,18 +124,8 @@ export default function FR() {
           <button className="htab">Débutant</button>
         </div>
         <div className="fa d6">
-          <div className="tally-box" id="inscription">
-            <h3>Réclame ta place de membre fondateur</h3>
-            <p>Réponds à 3 questions rapides — puis complète ton inscription.</p>
-            <iframe
-              data-tally-src="https://tally.so/embed/ZjRv6z?hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              loading="lazy"
-              width="100%"
-              height="510"
-              frameBorder="0"
-              title="Grip Marketing Contact FR"
-            />
-          </div>
+          <a href="#inscription" className="btn-gold lg pulse">Réserver ma place →</a>
+          <p style={{marginTop:'1rem',fontSize:'0.82rem',color:'var(--muted)'}}>Prix fondateur bloqué à <span style={{color:'var(--gold)'}}>1 000$</span> — monte à 1 500$ au lancement.</p>
         </div>
       </div>
 
@@ -301,6 +291,26 @@ export default function FR() {
         <h2 className="stitle" style={{fontSize:'clamp(2rem,5vw,3.2rem)'}}>Arrête de deviner. <span className="gold">Commence à maîtriser.</span></h2>
         <p style={{color:'var(--muted)',fontSize:'1rem',maxWidth:'460px',margin:'0 auto 2rem'}}>Le système qui propulse ta croissance ne devrait pas vivre en dehors de ta compréhension. Bloque le prix fondateur. Prends le contrôle.</p>
         <a href="#inscription" className="btn-gold lg pulse">Réserver ma place →</a>
+      </div>
+
+      <hr className="dv" />
+
+      <div className="sec" style={{maxWidth:'700px',margin:'0 auto'}} id="inscription">
+        <div className="reveal" style={{textAlign:'center',marginBottom:'2.5rem'}}>
+          <p className="slabel">Inscription</p>
+          <h2 className="stitle">Réclame ta place de membre fondateur.</h2>
+          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Réponds à 3 questions rapides pour confirmer que Grip est le bon fit — puis complète ton inscription.</p>
+        </div>
+        <div className="reveal d2" style={{background:'rgba(201,168,76,0.04)',border:'1px solid rgba(201,168,76,0.2)',borderRadius:'4px',padding:'2rem'}}>
+          <iframe
+            data-tally-src="https://tally.so/embed/ZjRv6z?hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="510"
+            frameBorder="0"
+            title="Grip Marketing Contact FR"
+          />
+        </div>
       </div>
 
       <footer>

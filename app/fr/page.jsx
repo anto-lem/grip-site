@@ -96,18 +96,18 @@ export default function FR() {
     ['🎲', "Tu roules des ads au feeling au lieu d'un système structuré et répétable"],
     ['📉', 'Tes revenus fluctuent de mois en mois sans diagnostic clair'],
     ['🔒', "Tu dépends totalement d'équipes externes qui ne s'investiront jamais autant que toi"],
-    ['🕳️', "Tu n'as aucun système de suivi des leads — les prospects disparaissent et les ventes se perdent avant même de commencer"],
-    ['❓', "Tu ne sais pas ce qui fonctionne vraiment — pas de données claires, pas moyen d'améliorer, juste espérer que le mois prochain sera meilleur"],
+    ['🕳️', "Tu n'as aucun système de suivi des leads les prospects disparaissent et les ventes se perdent avant même de commencer"],
+    ['❓', "Tu ne sais pas ce qui fonctionne vraiment pas de données claires, pas moyen d'améliorer, juste espérer que le mois prochain sera meilleur"],
   ]
 
   const profiles = [
-    ['Profil 01', "Le propriétaire qui n'a jamais vraiment fait de marketing", "Tu n'as jamais eu de formation en marketing. Ça t'a toujours semblé trop technique, trop écrasant. Tu sais que t'en as besoin — t'as juste jamais eu la feuille de route."],
+    ['Profil 01', "Le propriétaire qui n'a jamais vraiment fait de marketing", "Tu n'as jamais eu de formation en marketing. Ça t'a toujours semblé trop technique, trop écrasant. Tu sais que t'en as besoin t'as juste jamais eu la feuille de route."],
     ['Profil 02', "Le propriétaire qui paie une agence sans voir les résultats", "Tu paies 2 000–5 000$/mois à une agence. Tu reçois des rapports que tu ne comprends pas. Pas de transparence. Tu ne sais pas vraiment ce que tu obtiens."],
-    ['Profil 03', "Le leader qui veut que son équipe prenne en charge le marketing", "Tu as une personne interne — peut-être un VA, peut-être un junior. Mais il n'y a pas de système. Pas de framework. Pas de moyen de la former ou de la tenir responsable."],
+    ['Profil 03', "Le leader qui veut que son équipe prenne en charge le marketing", "Tu as une personne interne peut-être un VA, peut-être un junior. Mais il n'y a pas de système. Pas de framework. Pas de moyen de la former ou de la tenir responsable."],
   ]
 
   const before = ['Le marketing ressemble à du guessing', 'Chaque dollar dépensé est un pari', 'Tu dépends des agences pour tout', "Tu ne sais pas diagnostiquer pourquoi une campagne échoue", 'La croissance est réactive, pas planifiée', "Tu approuves des stratégies que tu ne comprends pas"]
-  const after = ['Chaque décision est basée sur un framework clair', 'Tu sais exactement ce que chaque dollar produit', "Tu contrôles le système — n'importe qui peut l'exécuter", 'Tu diagnostiques la performance comme un stratège', 'La croissance est délibérée et mesurable', 'Tu possèdes ton intelligence marketing en permanence']
+  const after = ['Chaque décision est basée sur un framework clair', 'Tu sais exactement ce que chaque dollar produit', "Tu contrôles le système n'importe qui peut l'exécuter", 'Tu diagnostiques la performance comme un stratège', 'La croissance est délibérée et mesurable', 'Tu possèdes ton intelligence marketing en permanence']
 
   const modules = [
     ['00', 'The Ownership Shift', ['Le piège de la dépendance aux agences', 'Ce que la compétence interne signifie', 'Standards et engagement'], '20 min'],
@@ -119,13 +119,13 @@ export default function FR() {
 
   const founding = [
     ['Prix membre fondateur bloqué', "L'inscription actuelle est au prix de la première cohorte. Le prix augmentera une fois la cohorte remplie et les résultats documentés."],
-    ["Accès direct à l'équipe", 'Les membres de la première cohorte ont un accès plus proche pendant la phase de lancement — questions répondues, feedback intégré, communauté bâtie ensemble.'],
-    ['Influence le programme', "Les membres fondateurs influencent ce qui s'ajoute ensuite — études de cas, templates, outils. Tu n'es pas juste un étudiant. Tu fais partie de la construction."],
+    ["Accès direct à l'équipe", 'Les membres de la première cohorte ont un accès plus proche pendant la phase de lancement questions répondues, feedback intégré, communauté bâtie ensemble.'],
+    ['Influence le programme', "Les membres fondateurs influencent ce qui s'ajoute ensuite études de cas, templates, outils. Tu n'es pas juste un étudiant. Tu fais partie de la construction."],
   ]
 
   const features = [
     '5 modules complets avec leçons étape par étape',
-    'Accès à vie — apprends à ton rythme, pour toujours',
+    'Accès à vie apprends à ton rythme, pour toujours',
     'Quiz obligatoires après chaque leçon',
     'Examen final de certification (2 tentatives incluses)',
     'Certificat officiel à la réussite',
@@ -135,14 +135,14 @@ export default function FR() {
   ]
 
   const faqs = [
-    ["Est-ce que j'ai besoin d'expérience en marketing?", "Aucune expérience préalable requise. Grip a été conçu spécifiquement pour les propriétaires d'entreprises qui n'ont jamais étudié le marketing formellement. Chaque concept est introduit à partir des principes de base — pas de jargon, pas de connaissances supposées."],
-    ['Pour qui est ce programme?', "Entrepreneurs, propriétaires de PME, freelances et professionnels qui veulent comprendre et contrôler leur propre marketing — qu'ils planifient de l'exécuter eux-mêmes ou de gérer des équipes externes plus stratégiquement."],
-    ['Quelle est la différence entre 1 000$ et 1 500$?', "Les membres fondateurs qui s'inscrivent maintenant bloquent le prix de 1 000$ — avant le prix régulier de lancement à 1 500$. Même programme complet, même accès à vie, même certification."],
+    ["Est-ce que j'ai besoin d'expérience en marketing?", "Aucune expérience préalable requise. Grip a été conçu spécifiquement pour les propriétaires d'entreprises qui n'ont jamais étudié le marketing formellement. Chaque concept est introduit à partir des principes de base pas de jargon, pas de connaissances supposées."],
+    ['Pour qui est ce programme?', "Entrepreneurs, propriétaires de PME, freelances et professionnels qui veulent comprendre et contrôler leur propre marketing qu'ils planifient de l'exécuter eux-mêmes ou de gérer des équipes externes plus stratégiquement."],
+    ['Quelle est la différence entre 1 000$ et 1 500$?', "Les membres fondateurs qui s'inscrivent maintenant bloquent le prix de 1 000$ avant le prix régulier de lancement à 1 500$. Même programme complet, même accès à vie, même certification."],
     ["Qu'est-ce que j'obtiens exactement?", 'Accès complet aux 5 modules (Module 0 à 4), quiz obligatoires, examen de certification final avec deux tentatives incluses, certificat officiel à la réussite, accès à la communauté Telegram privée, et toutes les mises à jour futures.'],
-    ['Et si je suis un débutant complet?', "Ce programme a été bâti spécifiquement pour les gens qui ne sont pas des marketeurs professionnels. Le curriculum part des fondations — comment les marchés fonctionnent, comment la demande est créée, comment le positionnement affecte l'acquisition."],
+    ['Et si je suis un débutant complet?', "Ce programme a été bâti spécifiquement pour les gens qui ne sont pas des marketeurs professionnels. Le curriculum part des fondations comment les marchés fonctionnent, comment la demande est créée, comment le positionnement affecte l'acquisition."],
     ['Y a-t-il une garantie de remboursement?', "Oui. Garantie satisfait ou remboursé 30 jours après le lancement du programme. Si tu complètes le premier module et que tu sens que ce n'est pas le bon fit, contacte-nous dans les 30 jours pour un remboursement complet."],
-    ["Combien de temps j'ai accès?", 'Accès à vie. Tu paies une fois et tu possèdes le programme en permanence — incluant toutes les mises à jour et ajouts futurs. Pas d\'abonnements, pas de frais récurrents.'],
-    ['En quoi est-ce différent du contenu gratuit en ligne?', "Le contenu gratuit te donne des tactiques sans architecture. Tu te retrouves avec de l'information déconnectée sans framework pour l'appliquer. Ce programme fournit un système structuré — chaque module s'appuie sur le précédent, tout est lié, et la certification t'assure d'appliquer vraiment ce que tu apprends."],
+    ["Combien de temps j'ai accès?", 'Accès à vie. Tu paies une fois et tu possèdes le programme en permanence incluant toutes les mises à jour et ajouts futurs. Pas d\'abonnements, pas de frais récurrents.'],
+    ['En quoi est-ce différent du contenu gratuit en ligne?', "Le contenu gratuit te donne des tactiques sans architecture. Tu te retrouves avec de l'information déconnectée sans framework pour l'appliquer. Ce programme fournit un système structuré chaque module s'appuie sur le précédent, tout est lié, et la certification t'assure d'appliquer vraiment ce que tu apprends."],
     ["C'est quoi le Membership VIP?", "Le Membership VIP (75$/mois) est un add-on optionnel disponible exclusivement aux diplômés certifiés. Il inclut des études de cas avancées, des templates de stratégie premium, un accès coaching mensuel et du consulting prioritaire. Il n'est pas requis pour compléter le programme ou obtenir ta certification."],
   ]
 
@@ -172,7 +172,7 @@ export default function FR() {
         </div>
         <div className="fa d6">
           <a href="#inscription" className="btn-gold lg pulse">Réserver ma place →</a>
-          <p style={{marginTop:'1rem',fontSize:'0.82rem',color:'var(--muted)'}}>Prix fondateur bloqué à <span style={{color:'var(--gold)'}}>1 000$</span> — monte à 1 500$ au lancement.</p>
+          <p style={{marginTop:'1rem',fontSize:'0.82rem',color:'var(--muted)'}}>Prix fondateur bloqué à <span style={{color:'var(--gold)'}}>1 000$</span> monte à 1 500$ au lancement.</p>
         </div>
       </div>
 
@@ -212,7 +212,7 @@ export default function FR() {
         </div>
         <div className="reassurance-box reveal d3">
           <p className="reassurance-num">0</p>
-          <p className="reassurance-text">Expérience en marketing requise — Grip a été bâti de fond en comble pour les propriétaires d'entreprises, pas les marketeurs. Chaque concept expliqué à partir des principes de base.</p>
+          <p className="reassurance-text">Expérience en marketing requise Grip a été bâti de fond en comble pour les propriétaires d'entreprises, pas les marketeurs. Chaque concept expliqué à partir des principes de base.</p>
         </div>
       </div>
 
@@ -265,7 +265,7 @@ export default function FR() {
         <div className="reveal">
           <p className="slabel">Première cohorte</p>
           <h2 className="stitle">Le prix Membre Fondateur est actif.</h2>
-          <p className="ssub">Grip lance sa première cohorte. Les membres fondateurs accèdent au programme complet au prix actuel — avant qu'il augmente.</p>
+          <p className="ssub">Grip lance sa première cohorte. Les membres fondateurs accèdent au programme complet au prix actuel avant qu'il augmente.</p>
         </div>
         <div className="proof-grid reveal d2">
           {founding.map(([title, desc], i) => (
@@ -286,7 +286,7 @@ export default function FR() {
         </div>
         <div className="pbox reveal d2">
           <div className="phead">
-            <p className="plabel">Membre Fondateur — Pré-lancement</p>
+            <p className="plabel">Membre Fondateur Pré-lancement</p>
             <div className="price-row">
               <span className="pmain">1 000$</span>
               <span className="pcross">1 500$</span>
@@ -346,7 +346,7 @@ export default function FR() {
         <div className="reveal" style={{textAlign:'center',marginBottom:'2.5rem'}}>
           <p className="slabel">Inscription</p>
           <h2 className="stitle">Réclame ta place de membre fondateur.</h2>
-          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Réponds à 3 questions rapides pour confirmer que Grip est le bon fit — puis complète ton inscription.</p>
+          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Réponds à 3 questions rapides pour confirmer que Grip est le bon fit puis complète ton inscription.</p>
         </div>
         <div className="reveal d2" style={{background:'rgba(201,168,76,0.04)',border:'1px solid rgba(201,168,76,0.2)',borderRadius:'4px',padding:'2rem'}}>
           <iframe
@@ -362,7 +362,7 @@ export default function FR() {
 
       <footer>
         <p className="footer-brand">GRIP</p>
-        <p>© 2026 Grip : Your Marketing System — Tous droits réservés.</p>
+        <p>© 2026 Grip : Your Marketing System Tous droits réservés.</p>
       </footer>
     </>
   )

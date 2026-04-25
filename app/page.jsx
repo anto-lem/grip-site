@@ -110,11 +110,11 @@ export default function Home() {
   const after = ['Every decision is backed by a clear framework', 'You know exactly what each dollar produces', 'You control the system anyone can execute it', 'You diagnose performance like a strategist', 'Growth is deliberate and measurable', 'You own your marketing intelligence permanently']
 
   const modules = [
-    ['00', 'The Ownership Shift', ['The agency dependency trap', 'What internal capability means', 'Standards & commitment'], '20 min'],
-    ['01', 'Marketing Foundations', ['Industry & market research', 'Positioning & offer design', 'Avatar & messaging', 'Strategic framework'], '60–75 min'],
-    ['02', 'Content & Authority', ['Content structure & hooks', 'Scriptwriting', 'AI integration', 'Distribution strategy'], '60 min'],
-    ['03', 'Acquisition Systems', ['Lead generation', 'Funnel architecture', 'Ads foundation & metrics', 'Conversion principles'], '75–90 min'],
-    ['04', 'Systems & Optimization', ['Automation fundamentals', 'Data reading & KPIs', 'Iteration framework', 'Long-term control'], '60 min'],
+    ['00', 'The Owner Shift', ['The reality of dependency', 'The problem and the solution', 'Standards & commitment'], '20 min'],
+    ['01', 'Marketing Foundation', ['Market research & competitive analysis', 'Positioning, offer & value', 'Avatar, messaging & branding', 'Customer journey mapping'], '60–75 min'],
+    ['02', 'Capture Attention', ['Content strategy & scriptwriting', 'iPhone & camera filmmaking', 'Editing & AI integration', 'Distribution & content metrics'], '60 min'],
+    ['03', 'Convert & Acquire', ['VSL & landing page conversion', 'Ads creation & management', 'SEO, local SEO & GEO/AEO', 'Tracking & KPIs'], '75–90 min'],
+    ['04', 'Automate & Scale', ['CRM & email sequences', 'Lead nurturing & scoring', 'Workflows & automation', 'AI agents & retention'], '60 min'],
   ]
 
   const founding = [

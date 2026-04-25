@@ -17,28 +17,28 @@ export default function FR() {
 
     const hooks = {
       agence: {
-        eyebrow: 'Arrête de payer 3 000$/mois à des agences',
+        eyebrow: 'Arrête de payer des agences entre 3 000 et 7 000$/mois',
         h1: 'Vire ton agence.',
-        em: 'Possède ton marketing.',
-        sub: "Aucune expérience en marketing? Pas de problème. Tu paies une agence sans voir les résultats? Grip donne à tout propriétaire d'entreprise un système marketing complet qu'il peut bâtir, gérer et posséder — certifié."
+        em: 'Contrôle ton marketing.',
+        sub: "Grip est une formation marketing complète avec des leçons structurées, des templates prêts à utiliser, des exemples concrets et une certification officielle. Tu apprends le système. Tu l'appliques. Tu le possèdes."
       },
       roi: {
         eyebrow: 'Transforme ton marketing en actif de revenus',
-        h1: 'Arrête de louer ta croissance.',
-        em: 'Commence à la posséder.',
-        sub: "Chaque dollar que tu dépenses en agence disparaît. Grip transforme le marketing en actif interne permanent — un actif qui se bonifie dans le temps et t'appartient."
+        h1: 'Arrête de payer.',
+        em: 'Commence à contrôler.',
+        sub: "Chaque dollar en agence disparaît. Grip te donne une formation concrète pour bâtir ton propre système d'acquisition que tu gardes et contrôles pour toujours."
       },
       controle: {
         eyebrow: 'Reprends le contrôle de ton marketing',
         h1: 'Reprends le contrôle.',
         em: 'Gère ton propre marketing.',
-        sub: "Arrête de dépendre d'équipes externes pour chaque décision. Grip te donne le framework, les outils et la confiance pour posséder ta stratégie marketing — en permanence."
+        sub: "Des fondations marketing jusqu'aux ads et à l'automatisation. Une formation complète, étape par étape. Une certification pour prouver ta maîtrise. Zéro dépendance externe."
       },
       debutant: {
         eyebrow: 'Aucune expérience en marketing requise',
         h1: 'Aucune expérience requise.',
-        em: 'Bâtis ton système de zéro.',
-        sub: "Tu n'as pas besoin d'un diplôme en marketing. Tu n'as pas besoin d'avoir roulé des ads. Grip a été bâti de fond en comble pour les propriétaires qui partent de zéro."
+        em: 'Apprends de zéro, étape par étape.',
+        sub: "Pas de jargon. Aucune compétence minimum nécessaire. Grip a été conçu pour les propriétaires qui partent de zéro avec des leçons claires, des templates et un examen de certification."
       }
     }
 
@@ -153,9 +153,9 @@ export default function FR() {
       </nav>
 
       <div className="hero">
-        <p className="eyebrow fa d1" id="hero-eyebrow">Arrête de payer 3 000$/mois à des agences</p>
-        <h1 className="h1 fa d2" id="hero-h1">Vire ton agence.<em id="hero-em">Possède ton marketing.</em></h1>
-        <p className="hero-sub fa d3" id="hero-sub">Aucune expérience en marketing? Pas de problème. Tu paies une agence sans voir les résultats? Grip donne à tout propriétaire d'entreprise un système marketing complet qu'il peut bâtir, gérer et posséder — certifié.</p>
+        <p className="eyebrow fa d1" id="hero-eyebrow">Arrête de payer des agences entre 3 000 et 7 000$/mois</p>
+        <h1 className="h1 fa d2" id="hero-h1">Vire ton agence.<em id="hero-em">Contrôle ton marketing.</em></h1>
+        <p className="hero-sub fa d3" id="hero-sub">Grip est une formation marketing complète avec des leçons structurées, des templates prêts à utiliser, des exemples concrets et une certification officielle. Tu apprends le système. Tu l'appliques. Tu le possèdes.</p>
         <div className="hook-tabs fa d4">
           <button className="htab on" data-hook="agence">Anti-Agence</button>
           <button className="htab" data-hook="roi">Actif ROI</button>

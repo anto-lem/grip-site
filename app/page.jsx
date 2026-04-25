@@ -92,7 +92,7 @@ export default function Home() {
   }, [])
 
   const painItems = [
-    ['💸', "Paying $3,000/month to an agency and receiving a PDF report you don't understand"],
+    ['💸', "Paying between $3,000 and $7,000/month to an agency and receiving a PDF report you don't understand"],
     ['🎲', 'Running ads on gut feeling instead of a structured, repeatable system'],
     ['📉', 'Revenue that fluctuates month to month with no clear diagnosis'],
     ['🔒', 'Being fully dependent on external teams who will never care as much as you do'],

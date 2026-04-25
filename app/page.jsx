@@ -17,28 +17,28 @@ export default function Home() {
 
     const hooks = {
       agency: {
-        eyebrow: 'Stop Paying $3,000/Month to Agencies',
+        eyebrow: 'Stop Paying Between $3,000 and $7,000/Month to Agencies',
         h1: 'Fire Your Agency.',
-        em: 'Own Your Marketing.',
-        sub: "No marketing background? No problem. Paying an agency and not sure what you're getting? Grip gives any business owner a complete, structured marketing system they can build, run, and own — certified."
+        em: 'Control Your Marketing.',
+        sub: "Grip is a complete marketing training program with structured lessons, ready-to-use templates, real examples and an official certification. You learn the system. You apply it. You own it."
       },
       roi: {
-        eyebrow: 'Turn Marketing Into a Revenue Asset',
-        h1: 'Stop Renting Your Growth.',
-        em: 'Start Owning It.',
-        sub: "Every dollar you spend on an agency disappears. Grip turns marketing into a permanent internal asset — one that compounds over time and belongs to you."
+        eyebrow: 'Turn Your Marketing Into a Revenue Asset',
+        h1: 'Stop Paying.',
+        em: 'Start Controlling.',
+        sub: "Every dollar spent on an agency disappears. Grip gives you a concrete training program to build your own acquisition system that you keep and control forever."
       },
       control: {
         eyebrow: 'Take Back Control of Your Marketing',
         h1: 'Take Back Control.',
         em: 'Run Your Own Marketing.',
-        sub: "Stop depending on external teams for every decision. Grip gives you the framework, the tools, and the confidence to own your marketing strategy — permanently."
+        sub: "From marketing foundations all the way to ads and automation. A complete training program, step by step. A certification to prove your mastery. Zero external dependency."
       },
       beginner: {
         eyebrow: 'No Marketing Experience Required',
-        h1: 'No Experience Needed.',
-        em: 'Build Your System From Scratch.',
-        sub: "You don't need a marketing degree. You don't need to have run ads before. Grip was built from the ground up for business owners who are starting from zero."
+        h1: 'No Experience Required.',
+        em: 'Learn From Zero, Step by Step.',
+        sub: "No jargon. No minimum skills required. Grip was built for business owners starting from zero with clear lessons, templates and a certification exam."
       }
     }
 
@@ -96,18 +96,18 @@ export default function Home() {
     ['🎲', 'Running ads on gut feeling instead of a structured, repeatable system'],
     ['📉', 'Revenue that fluctuates month to month with no clear diagnosis'],
     ['🔒', 'Being fully dependent on external teams who will never care as much as you do'],
-    ['🕳️', 'Having no system to follow up with leads — prospects fall through the cracks and revenue is lost before it even starts'],
-    ['❓', "Not knowing what's actually working — no clear data, no way to improve, just guessing and hoping next month will be better"],
+    ['🕳️', 'Having no system to follow up with leads prospects fall through the cracks and revenue is lost before it even starts'],
+    ['❓', "Not knowing what's actually working no clear data, no way to improve, just guessing and hoping next month will be better"],
   ]
 
   const profiles = [
-    ['Profile 01', "The business owner who's never really done marketing", "You never had a marketing background. It always felt too technical, too overwhelming. You know you need it — you just never had the roadmap."],
+    ['Profile 01', "The business owner who's never really done marketing", "You never had a marketing background. It always felt too technical, too overwhelming. You know you need it you just never had the roadmap."],
     ['Profile 02', 'The owner paying an agency and not seeing results', "You're paying $2-5K/month to an agency. You get reports you don't understand. There's no transparency. You're not sure what you're actually getting."],
-    ['Profile 03', 'The leader who wants their team to own the marketing', "You have an internal person — maybe a VA, maybe a junior hire. But there's no system. No framework. No way to train them or hold them accountable."],
+    ['Profile 03', 'The leader who wants their team to own the marketing', "You have an internal person maybe a VA, maybe a junior hire. But there's no system. No framework. No way to train them or hold them accountable."],
   ]
 
   const before = ['Marketing feels like guesswork', 'Every dollar spent is a leap of faith', 'You depend on agencies for everything', "You can't diagnose why campaigns fail", 'Growth is reactive, not engineered', "You approve strategies you don't understand"]
-  const after = ['Every decision is backed by a clear framework', 'You know exactly what each dollar produces', 'You control the system — anyone can execute it', 'You diagnose performance like a strategist', 'Growth is deliberate and measurable', 'You own your marketing intelligence permanently']
+  const after = ['Every decision is backed by a clear framework', 'You know exactly what each dollar produces', 'You control the system anyone can execute it', 'You diagnose performance like a strategist', 'Growth is deliberate and measurable', 'You own your marketing intelligence permanently']
 
   const modules = [
     ['00', 'The Ownership Shift', ['The agency dependency trap', 'What internal capability means', 'Standards & commitment'], '20 min'],
@@ -119,13 +119,13 @@ export default function Home() {
 
   const founding = [
     ['Founding member price locked', 'Current enrollment is priced for the first cohort. The price will increase once the cohort is full and results are documented.'],
-    ['Direct access to the team', 'First cohort members get closer access during the launch phase — questions answered, feedback integrated, community built from the ground up.'],
-    ['Shape the program', "Founding members influence what gets added next — case studies, templates, tools. You're not just a student. You're part of building this."],
+    ['Direct access to the team', 'First cohort members get closer access during the launch phase questions answered, feedback integrated, community built from the ground up.'],
+    ['Shape the program', "Founding members influence what gets added next case studies, templates, tools. You're not just a student. You're part of building this."],
   ]
 
   const features = [
     '5 comprehensive modules with step-by-step lessons',
-    'Lifetime access — learn at your own pace, forever',
+    'Lifetime access learn at your own pace, forever',
     'Mandatory quizzes after every lesson',
     'Final certification exam (2 attempts included)',
     'Official certificate upon passing',
@@ -135,14 +135,14 @@ export default function Home() {
   ]
 
   const faqs = [
-    ['Do I need marketing experience to take Grip?', 'No prior marketing experience is required. Grip was built specifically for business owners who have never formally studied marketing. Every concept is introduced from first principles — no jargon, no assumed knowledge.'],
-    ['Who is this program for?', 'Entrepreneurs, small business owners, freelancers, and professionals who want to understand and control their own marketing — whether they plan to execute it themselves or manage external teams more strategically. No prior marketing background required.'],
-    ["What's the difference between the $1,000 Founding Member price and the $1,500 launch price?", 'Founding Members who join lock in the $1,000 one-time price — before the regular launch price of $1,500. Same full program, same lifetime access, same certification. The founding price closes when enrollment officially opens.'],
+    ['Do I need marketing experience to take Grip?', 'No prior marketing experience is required. Grip was built specifically for business owners who have never formally studied marketing. Every concept is introduced from first principles no jargon, no assumed knowledge.'],
+    ['Who is this program for?', 'Entrepreneurs, small business owners, freelancers, and professionals who want to understand and control their own marketing whether they plan to execute it themselves or manage external teams more strategically. No prior marketing background required.'],
+    ["What's the difference between the $1,000 Founding Member price and the $1,500 launch price?", 'Founding Members who join lock in the $1,000 one-time price before the regular launch price of $1,500. Same full program, same lifetime access, same certification. The founding price closes when enrollment officially opens.'],
     ['What exactly do I get?', 'Full access to all 5 modules (Module 0 through 4), mandatory lesson quizzes, a final certification exam with two included attempts, an official certificate upon passing, access to the private Telegram community, and all future program updates.'],
-    ['What if I am a complete beginner?', 'This program was built specifically for people who are not professional marketers. The curriculum starts from the foundations — how markets work, how demand is created, how positioning affects acquisition — before moving into execution. No jargon, no assumed knowledge.'],
+    ['What if I am a complete beginner?', 'This program was built specifically for people who are not professional marketers. The curriculum starts from the foundations how markets work, how demand is created, how positioning affects acquisition before moving into execution. No jargon, no assumed knowledge.'],
     ['Is there a money-back guarantee?', 'Yes. There is a 30-day satisfaction guarantee after the program launches. If you complete the first module and feel the program is not right for you, contact us within 30 days of enrollment for a full refund. No questions asked.'],
-    ['How long do I have access?', 'Lifetime access. You pay once and own the program permanently — including all future updates and additions. No subscriptions, no recurring fees for the core program.'],
-    ['How is this different from free content online?', 'Free content gives you tactics without architecture. You end up with disconnected information and no framework to apply it. This program provides a structured system — each module builds on the last, everything is tied together, and the certification requirement ensures you actually apply what you learn.'],
+    ['How long do I have access?', 'Lifetime access. You pay once and own the program permanently including all future updates and additions. No subscriptions, no recurring fees for the core program.'],
+    ['How is this different from free content online?', 'Free content gives you tactics without architecture. You end up with disconnected information and no framework to apply it. This program provides a structured system each module builds on the last, everything is tied together, and the certification requirement ensures you actually apply what you learn.'],
     ['What about the VIP Membership?', 'The VIP Membership ($75/month) is an optional add-on available exclusively to certified graduates. It includes advanced case studies, premium strategy templates, monthly coaching access, and priority consulting. It is not required to complete the program or receive your certification.'],
   ]
 
@@ -161,9 +161,9 @@ export default function Home() {
       </nav>
 
       <div className="hero">
-        <p className="eyebrow fa d1" id="hero-eyebrow">Stop Paying $3,000/Month to Agencies</p>
-        <h1 className="h1 fa d2" id="hero-h1">Fire Your Agency.<em id="hero-em">Own Your Marketing.</em></h1>
-        <p className="hero-sub fa d3" id="hero-sub">No marketing background? No problem. Paying an agency and not sure what you're getting? Grip gives any business owner a complete, structured marketing system they can build, run, and own — certified.</p>
+        <p className="eyebrow fa d1" id="hero-eyebrow">Stop Paying Between $3,000 and $7,000/Month to Agencies</p>
+        <h1 className="h1 fa d2" id="hero-h1">Fire Your Agency.<em id="hero-em">Control Your Marketing.</em></h1>
+        <p className="hero-sub fa d3" id="hero-sub">Grip is a complete marketing training program with structured lessons, ready-to-use templates, real examples and an official certification. You learn the system. You apply it. You own it.</p>
         <div className="hook-tabs fa d4">
           <button className="htab on" data-hook="agency">Anti-Agency</button>
           <button className="htab" data-hook="roi">ROI Asset</button>
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
         <div className="fa d6">
           <a href="#enroll" className="btn-gold lg pulse">Reserve My Spot →</a>
-          <p style={{marginTop:'1rem',fontSize:'0.82rem',color:'var(--muted)'}}>Founding member price locked at <span style={{color:'var(--gold)'}}>$1,000</span> — increases to $1,500 at launch.</p>
+          <p style={{marginTop:'1rem',fontSize:'0.82rem',color:'var(--muted)'}}>Founding member price locked at <span style={{color:'var(--gold)'}}>$1,000</span> increases to $1,500 at launch.</p>
         </div>
       </div>
 
@@ -212,7 +212,7 @@ export default function Home() {
         </div>
         <div className="reassurance-box reveal d3">
           <p className="reassurance-num">0</p>
-          <p className="reassurance-text">Prior marketing experience required — Grip was built from the ground up for business owners, not marketers. Every concept explained from first principles.</p>
+          <p className="reassurance-text">Prior marketing experience required Grip was built from the ground up for business owners, not marketers. Every concept explained from first principles.</p>
         </div>
       </div>
 
@@ -265,7 +265,7 @@ export default function Home() {
         <div className="reveal">
           <p className="slabel">First Cohort</p>
           <h2 className="stitle">Founding Member pricing is live.</h2>
-          <p className="ssub">Grip is launching its first cohort. Founding members access the full program at the current price — before it increases.</p>
+          <p className="ssub">Grip is launching its first cohort. Founding members access the full program at the current price before it increases.</p>
         </div>
         <div className="proof-grid reveal d2">
           {founding.map(([title, desc], i) => (
@@ -286,7 +286,7 @@ export default function Home() {
         </div>
         <div className="pbox reveal d2">
           <div className="phead">
-            <p className="plabel">Founding Member — Pre-Launch</p>
+            <p className="plabel">Founding Member Pre-Launch</p>
             <div className="price-row">
               <span className="pmain">$1,000</span>
               <span className="pcross">$1,500</span>
@@ -346,7 +346,7 @@ export default function Home() {
         <div className="reveal" style={{textAlign:'center',marginBottom:'2.5rem'}}>
           <p className="slabel">Enrollment</p>
           <h2 className="stitle">Claim your founding member spot.</h2>
-          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Answer 3 quick questions to confirm Grip is the right fit — then complete your enrollment.</p>
+          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Answer 3 quick questions to confirm Grip is the right fit then complete your enrollment.</p>
         </div>
         <div className="reveal d2" style={{background:'rgba(201,168,76,0.04)',border:'1px solid rgba(201,168,76,0.2)',borderRadius:'4px',padding:'2rem'}}>
           <iframe
@@ -362,7 +362,7 @@ export default function Home() {
 
       <footer>
         <p className="footer-brand">GRIP</p>
-        <p>© 2026 Grip : Your Marketing System — All rights reserved.</p>
+        <p>© 2026 Grip : Your Marketing System All rights reserved.</p>
       </footer>
     </>
   )

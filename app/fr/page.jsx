@@ -102,7 +102,7 @@ export default function FR() {
 
   const profiles = [
     ['Profil 01', "Le propriétaire qui n'a jamais vraiment fait de marketing", "Tu n'as jamais eu de formation en marketing. Ça t'a toujours semblé trop technique, trop écrasant. Tu sais que t'en as besoin t'as juste jamais eu la feuille de route."],
-    ['Profil 02', "Le propriétaire qui paie une agence sans voir les résultats", "Tu paies 2 000–5 000$/mois à une agence. Tu reçois des rapports que tu ne comprends pas. Pas de transparence. Tu ne sais pas vraiment ce que tu obtiens."],
+    ['Profil 02', "Le propriétaire qui paie une agence sans voir les résultats", "Tu paies entre 3 000 et 7 000$/mois à une agence. Tu reçois des rapports que tu ne comprends pas. Pas de transparence. Tu ne sais pas vraiment ce que tu obtiens."],
     ['Profil 03', "Le leader qui veut que son équipe prenne en charge le marketing", "Tu as une personne interne peut-être un VA, peut-être un junior. Mais il n'y a pas de système. Pas de framework. Pas de moyen de la former ou de la tenir responsable."],
   ]
 
@@ -212,7 +212,7 @@ export default function FR() {
         </div>
         <div className="reassurance-box reveal d3">
           <p className="reassurance-num">0</p>
-          <p className="reassurance-text">Expérience en marketing requise Grip a été bâti de fond en comble pour les propriétaires d'entreprises, pas les marketeurs. Chaque concept expliqué à partir des principes de base.</p>
+          <p className="reassurance-text">Aucune expérience en marketing requise. Grip a été bâti de fond en comble pour les propriétaires d'entreprises, pas les marketeurs. Chaque concept expliqué à partir des principes de base.</p>
         </div>
       </div>
 

@@ -92,7 +92,7 @@ export default function FR() {
   }, [])
 
   const painItems = [
-    ['💸', "Tu paies 3 000$/mois à une agence et tu reçois un rapport PDF que tu ne comprends pas"],
+    ['💸', "Tu paies entre 3 000 et 7 000$/mois à une agence et tu reçois un rapport PDF que tu ne comprends pas"],
     ['🎲', "Tu roules des ads au feeling au lieu d'un système structuré et répétable"],
     ['📉', 'Tes revenus fluctuent de mois en mois sans diagnostic clair'],
     ['🔒', "Tu dépends totalement d'équipes externes qui ne s'investiront jamais autant que toi"],

@@ -47,17 +47,7 @@ export default function FR() {
         document.querySelectorAll('.htab').forEach(t => t.classList.remove('on'))
         tab.classList.add('on')
         const hook = tab.getAttribute('data-hook')
-        if (hooks[hook]) {
-          const h = hooks[hook]
-          const eyebrow = document.getElementById('hero-eyebrow')
-          const h1 = document.getElementById('hero-h1')
-          const em = document.getElementById('hero-em')
-          const sub = document.getElementById('hero-sub')
-          if (eyebrow) eyebrow.textContent = h.eyebrow
-          if (h1) { h1.childNodes[0].textContent = h.h1; }
-          if (em) em.textContent = h.em
-          if (sub) sub.textContent = h.sub
-        }
+        applyHook(hook)
       })
     })
 

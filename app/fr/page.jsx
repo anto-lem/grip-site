@@ -336,7 +336,7 @@ export default function FR() {
       <div className="fcta reveal">
         <p className="slabel">La décision</p>
         <h2 className="stitle" style={{fontSize:'clamp(2rem,5vw,3.2rem)'}}>Arrête de deviner. <span className="gold">Commence à maîtriser.</span></h2>
-        <p style={{color:'var(--muted)',fontSize:'1rem',maxWidth:'460px',margin:'0 auto 2rem'}}>Le système qui propulse ta croissance ne devrait pas vivre en dehors de ta compréhension. Bloque le prix fondateur. Prends le contrôle.</p>
+        <p style={{color:'#ffffff',fontSize:'1rem',maxWidth:'460px',margin:'0 auto 2rem'}}>Le système qui propulse ta croissance ne devrait pas vivre en dehors de ta compréhension. Bloque le prix fondateur. Prends le contrôle.</p>
         <a href="#inscription" className="btn-gold lg pulse">Réserver ma place →</a>
       </div>
 
@@ -346,7 +346,7 @@ export default function FR() {
         <div className="reveal" style={{textAlign:'center',marginBottom:'2.5rem'}}>
           <p className="slabel">Inscription</p>
           <h2 className="stitle">Réclame ta place de membre fondateur.</h2>
-          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Réponds à 3 questions rapides pour confirmer que Grip est le bon fit puis complète ton inscription.</p>
+          <p style={{color:'#ffffff',fontSize:'0.95rem'}}>Réponds à 3 questions rapides pour confirmer que Grip est le bon fit. Ensuite, complète ton inscription.</p>
         </div>
         <div className="reveal d2" style={{background:'rgba(201,168,76,0.04)',border:'1px solid rgba(201,168,76,0.2)',borderRadius:'4px',padding:'2rem'}}>
           <iframe

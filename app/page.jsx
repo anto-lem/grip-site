@@ -124,8 +124,8 @@ export default function Home() {
   ]
 
   const features = [
-    '5 comprehensive modules with step-by-step lessons',
-    'Lifetime access learn at your own pace, forever',
+    '4 modules + introduction with step-by-step lessons',
+    'Lifetime access. Learn at your own pace, forever.',
     'Mandatory quizzes after every lesson',
     'Final certification exam (2 attempts included)',
     'Official certificate upon passing',

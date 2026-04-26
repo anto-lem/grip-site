@@ -124,8 +124,8 @@ export default function FR() {
   ]
 
   const features = [
-    '5 modules complets avec leçons étape par étape',
-    'Accès à vie apprends à ton rythme, pour toujours',
+    '4 modules + introduction avec leçons étape par étape',
+    'Accès à vie. Apprends à ton rythme, pour toujours.',
     'Quiz obligatoires après chaque leçon',
     'Examen final de certification (2 tentatives incluses)',
     'Certificat officiel à la réussite',

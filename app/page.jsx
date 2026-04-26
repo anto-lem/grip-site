@@ -336,7 +336,7 @@ export default function Home() {
       <div className="fcta reveal">
         <p className="slabel">The Decision</p>
         <h2 className="stitle" style={{fontSize:'clamp(2rem,5vw,3.2rem)'}}>Stop Guessing. <span className="gold">Start Mastering.</span></h2>
-        <p style={{color:'var(--muted)',fontSize:'1rem',maxWidth:'460px',margin:'0 auto 2rem'}}>The system that drives your growth should not live outside your understanding. Lock the founding price. Take control.</p>
+        <p style={{color:'#ffffff',fontSize:'1rem',maxWidth:'460px',margin:'0 auto 2rem'}}>The system that drives your growth should not live outside your understanding. Lock the founding price. Take control.</p>
         <a href="#enroll" className="btn-gold lg pulse">Reserve My Spot →</a>
       </div>
 
@@ -346,7 +346,7 @@ export default function Home() {
         <div className="reveal" style={{textAlign:'center',marginBottom:'2.5rem'}}>
           <p className="slabel">Enrollment</p>
           <h2 className="stitle">Claim your founding member spot.</h2>
-          <p style={{color:'var(--muted)',fontSize:'0.95rem'}}>Answer 3 quick questions to confirm Grip is the right fit then complete your enrollment.</p>
+          <p style={{color:'#ffffff',fontSize:'0.95rem'}}>Answer 3 quick questions to confirm Grip is the right fit. Then complete your enrollment.</p>
         </div>
         <div className="reveal d2" style={{background:'rgba(201,168,76,0.04)',border:'1px solid rgba(201,168,76,0.2)',borderRadius:'4px',padding:'2rem'}}>
           <iframe
